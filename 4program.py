@@ -18,3 +18,10 @@ a = 3.34
 a = str(a)
 print(type(a))
 print(a)
+
+# Practice questons
+
+num1 = int(input('enter a 1 number :'))
+num2 = int(input('enter a 2 number :'))
+
+print("sum of number 1 and number 2 is : " , num1 + num2)
