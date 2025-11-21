@@ -35,3 +35,42 @@ print(type(a))
 # assert     del        global     not        with
 # async      elif       if         or         yield
 
+# sum print
+a = 5
+b = 10
+sum = a + b 
+print(sum)
+
+
+# type of tokens
+# punctuators
+# punctuators are symbol to organize sentence structure in programming.
+# (), {}, @, [], # etc.
+
+# Experession Execution 
+
+# String and numeric values can operate together with *
+A,B = 2,3
+Txt = "@"
+print(2*Txt*3) 
+
+# String and String can operate with +  (concatenation)
+A,B = "2",3
+Txt = "@"
+print((A+Txt)*B)
+
+# Numeric values can operate with all arithmetic operators (+,-,*,/,%,**)
+A,B = 2,3
+C = 4
+print(A+B*C)
+
+# ✅ Python Operator Precedence Table (High → Low)
+# Brackets → Orders(**) → Division → Multiplication → Addition → Subtraction
+
+#comments in pyton 
+# single line comments
+""" This is 
+    a multiline 
+    comments"""
+
+#
