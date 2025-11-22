@@ -32,3 +32,17 @@ str2 = 'Apna Collage'
 print(str2[1:4])
 print(str2[:4]) #[0:4]
 print(str2[5:]) #[5:len(str2)]
+
+# str = "i am coder"
+# str.endswith('er')
+# str.capitalize()
+# str.replace(old,new)
+# str.find(word)
+# str.count('am') # how many time char present in string
+
+# problem solving 
+
+name = input("enter a name : ")
+
+print('Name is ', name + ' and length of char is present :' , len(name) )
+
