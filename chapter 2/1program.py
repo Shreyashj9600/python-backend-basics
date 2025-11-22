@@ -46,3 +46,11 @@ name = input("enter a name : ")
 
 print('Name is ', name + ' and length of char is present :' , len(name) )
 
+num = int(input('enter a number : '))
+
+if(num % 2 == 0) :
+    print('number is even')
+elif(num % 2 != 0):
+    print('number is odd')    
+else: 
+    print('number is zero')    
