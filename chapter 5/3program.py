@@ -35,3 +35,14 @@ print('----------------')
 
 for i in range(2,10,2) : # range(start,stop, step)
     print(i)
+
+
+# pass Statement
+# pass is a null statement that dose nothing. it is used as placeholder for futher code.
+
+for i in range(5):
+    pass
+
+print('some use full work')
+
+
