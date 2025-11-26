@@ -13,18 +13,19 @@
 # s1 = Student()
 # print(s1.name)
 
-class Student:
-    name = "karan"
-
-s1 = Student()
-print(s1.name)
-
-s2 = Student()
-print(s1.name)
-
 class Car:
     color = "blue"
     brand = 'tata'
 
 car1 = Car()
 print(car1.color)
+
+class Student:
+    def __init__(self,name,marks):
+      self.name = name 
+      self.marks = marks
+      print('adding new student in database')
+
+s1 = Student("karan",97)
+print(s1.name)
+print(s1.marks)       
