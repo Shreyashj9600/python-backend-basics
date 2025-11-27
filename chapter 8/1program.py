@@ -20,6 +20,8 @@ class Car:
 car1 = Car()
 print(car1.color)
 
+# constructor in python
+
 class Student:
     def __init__(self,name,marks):
       self.name = name 
